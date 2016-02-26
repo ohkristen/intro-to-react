@@ -1,6 +1,5 @@
 var Hello = React.createClass ({
   render: function () {
-    return
-      <p>Helo World!</p>;
+    return <p>{this.props.message}</p>;
   }
 });

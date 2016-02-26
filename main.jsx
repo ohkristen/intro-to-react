@@ -1,4 +1,4 @@
 React.render(
-  <Hello />
+  <Hello message="Hello World!"/>
   document.body
-)
+);
